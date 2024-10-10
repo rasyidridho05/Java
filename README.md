@@ -5,3 +5,12 @@
 
 ## Modul 3
 - Tipe Data Variable
+
+## Modul 4
+- Sequence 
+
+## Modul 5
+- Conditional
+
+## Modul 6 
+- Looping 

@@ -17,7 +17,7 @@ public class grade {
             System.out.println("Nilai : " + nilai + " C");
         } else if (nilai >= 60 && nilai < 70) {
             System.out.println("Nilai : " + nilai + " D");
-        } else if (nilai < 60) {
+        } else if (nilai < 60 && nilai >= 0) {
             System.out.println("Nilai" + nilai + " E");
         } else {
             System.out.println("Nilai tidak terdaftar");
