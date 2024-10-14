@@ -20,7 +20,7 @@ public class grade {
         } else if (nilai < 60 && nilai >= 0) {
             System.out.println("Nilai" + nilai + " E");
         } else {
-            System.out.println("Nilai tidak terdaftar");
+            System.out.println("Nilai dapat diinputkan hanya dalam range 0-100");
         }
     }
 
