@@ -18,11 +18,15 @@ public class tangkiaer {
             x += v;
             if (x >= t) {
                 check = true;
+                System.out.println("Volume Air    : " + x);
+                System.out.println("Volume Tangki : " + t);
+                if (x > t) {
+                    System.out.println("Tangki Overload");
+                }
+            } else {
+                System.out.println("Silakan isi air lagi.");
             }
-            System.out.println("Nilai X : "+ x);
-            System.out.println("V Tangki : "+ t);
-            System.out.println(check);
-
+            System.out.println("Tangki Penuh  : " + check);
         } while (check == false);
     }
 }

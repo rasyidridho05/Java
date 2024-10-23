@@ -13,10 +13,10 @@ public class consecutive {
             //selisih = (a % b) / (b / 10) - (a % (b * 10)) / (b / 10);
             selisih = (a % b) / (b / 10) - (a % (b / 10)) / (b / 100);
             b = b * 10;
-            System.out.println(selisih);
 
             if (selisih < 0) {
                 selisih *= -1;
+                System.out.println("Selisih : "+selisih);
             }
 
             if (selisih > 1) {
