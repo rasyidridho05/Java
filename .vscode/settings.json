@@ -1,4 +1,5 @@
 {
     "nuxt.isNuxtApp": false,
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "CodeGPT.apiKey": "OpenAI"
 }

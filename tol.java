@@ -8,6 +8,7 @@ public class tol {
         int total = 0, count = 0;
         String jk, ag;
         boolean loop = true;
+        
         do {
             System.out.println("---------------------");
             System.out.println("Jenis kendaraan : ");
@@ -24,16 +25,13 @@ public class tol {
                 if (ag.equalsIgnoreCase("KC")) {
                     total += 5000;
                     count++;
-                    System.out.println("Total : " + total + "\tJumlah Kendaraan : "+count);
-                    
+                    System.out.println("Total : " + total + "\tJumlah Kendaraan : " + count);
                 } else if (ag.equalsIgnoreCase("BS")) {
                     total += 6000;
                     count++;
-                    System.out.println("Total : " + total + "\tJumlah Kendaraan : "+count);
-                    
+                    System.out.println("Total : " + total + "\tJumlah Kendaraan : " + count);
                 } else {
                     System.out.println("Asal gerbang tidak valid");
-                    
                 }
             } else if (jk.equalsIgnoreCase("truck_besar_1")) {
                 System.out.println("Asal gerbang : ");
@@ -43,16 +41,13 @@ public class tol {
                 if (ag.equalsIgnoreCase("KC")) {
                     total += 7000;
                     count++;
-                    System.out.println("Total : " + total + "\tJumlah Kendaraan : "+count);
-                    
+                    System.out.println("Total : " + total + "\tJumlah Kendaraan : " + count);
                 } else if (ag.equalsIgnoreCase("BS")) {
                     total += 9000;
                     count++;
-                    System.out.println("Total : " + total + "\tJumlah Kendaraan : "+count);
-                    
+                    System.out.println("Total : " + total + "\tJumlah Kendaraan : " + count);
                 } else {
                     System.out.println("Asal gerbang tidak valid");
-                    
                 }
             } else if (jk.equalsIgnoreCase("truck_besar_2")) {
                 System.out.println("Asal gerbang : ");
@@ -62,22 +57,19 @@ public class tol {
                 if (ag.equalsIgnoreCase("KC")) {
                     total += 8000;
                     count++;
-                    System.out.println("Total : " + total + "\tJumlah Kendaraan : "+count);
-                    
+                    System.out.println("Total : " + total + "\tJumlah Kendaraan : " + count);
+
                 } else if (ag.equalsIgnoreCase("BS")) {
                     total += 10000;
                     count++;
-                    System.out.println("Total : " + total + "\tJumlah Kendaraan : "+count);
-                    
+                    System.out.println("Total : " + total + "\tJumlah Kendaraan : " + count);
                 } else {
                     System.out.println("Asal gerbang tidak valid");
-                    
                 }
             } else if (jk.equalsIgnoreCase("stop")) {
                 loop = false;
             } else {
                 System.out.println("Jenis kendaraan tidak valid");
-                
             }
         } while (loop != false);
     }

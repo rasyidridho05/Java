@@ -5,13 +5,13 @@ public class combinedigit {
 
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
-        int a, b;
+        int x, y;
         System.out.println("Input Bilangan 1 : ");
-        a = Input.nextInt();
+        x = Input.nextInt();
         System.out.println("Input Bilangan 2 : ");
-        b = Input.nextInt();
+        y = Input.nextInt();
 
-        System.out.println("Result : " + a + b);
+        System.out.println("" + x + y);
 
     }
 }
