@@ -14,7 +14,6 @@ public class countodd {
                 count += number;
             }
         } while (number != 0);
-        System.out.println("Count : "+count);
-        
+        System.out.println("Count : " + count);
     }
 }
