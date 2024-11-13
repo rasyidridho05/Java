@@ -7,7 +7,10 @@ public class test {
 
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
-        for (int i = 1; i <= 10; i++) {
+        System.out.println("Input Angka : ");
+        int a = Input.nextInt();
+
+        for (int i = 1; i <= a; i++) {
 
             if ((i % 2) == 0) {
                 System.out.println(i + " Merupakan Bilangan Genap");
@@ -15,6 +18,5 @@ public class test {
                 System.out.println(i + " Merupakan Bilangan Ganjil");
             }
         }
-
     }
 }
