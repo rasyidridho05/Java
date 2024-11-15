@@ -18,7 +18,6 @@ public class uniquechar {
                 jumlahUnik++;
             }
         }
-
         System.out.println("Jumlah karakter unik: " + jumlahUnik);
     }
 }

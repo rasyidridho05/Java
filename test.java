@@ -9,14 +9,12 @@ public class test {
         Scanner Input = new Scanner(System.in);
         System.out.println("Input Angka : ");
         int a = Input.nextInt();
-
-        for (int i = 1; i <= a; i++) {
-
-            if ((i % 2) == 0) {
-                System.out.println(i + " Merupakan Bilangan Genap");
-            } else {
-                System.out.println(i + " Merupakan Bilangan Ganjil");
-            }
+        int i = Input.nextInt();
+        i = i + (1-i%2);
+        a = a - (1-a%2); 
+        
+        for (i = i; i <= a; i+=2) {
+            System.out.print(i + " ");
         }
     }
 }
