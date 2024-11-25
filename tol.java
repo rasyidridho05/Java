@@ -7,8 +7,8 @@ public class tol {
         Scanner Input = new Scanner(System.in);
         int total = 0, count = 0;
         String jk, ag;
-        boolean loop = true;
-        
+        boolean loop = true ;
+
         do {
             System.out.println("---------------------");
             System.out.println("Jenis kendaraan : ");
