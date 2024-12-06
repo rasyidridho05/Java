@@ -1,8 +1,10 @@
 //103122400018 Muhammad Rasyid Ridho
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class nilai {
+
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
         ArrayList matkul = new ArrayList();
@@ -21,16 +23,16 @@ public class nilai {
         }
 
         for (int j = 0; j < length; j++) {
-            System.out.println(matkul.get(j)+" : ");
+            System.out.println(matkul.get(j) + " : ");
             int n = Input.nextInt();
             total += n;
             nilai.add(n);
         }
-        double rata = total/nilai.size();
+        double rata = total / nilai.size();
 
         for (int k = 0; k < length; k++) {
             System.out.println(matkul.get(k) + " : " + nilai.get(k));
         }
-        System.out.println("Rata : "+ rata);
+        System.out.println("Rata : " + rata);
     }
 }
