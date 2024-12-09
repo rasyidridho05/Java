@@ -15,7 +15,6 @@ public class same {
         for (int i = 0; i < n; i++) {
             data[i] = Input.nextLine();
         }
-
         check(data, n);
     }
 

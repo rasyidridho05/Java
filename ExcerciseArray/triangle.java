@@ -38,9 +38,5 @@ public class triangle {
             }
             System.out.println("Segitiga ke " + (i / 3 + 1) + " adalah " + type + " | " + a + " " + b + " " + c);
         }
-
-        // for (int j = 0; j < sisi.length; j++) {
-        //     System.out.println(sisi[j]);
-        // }
     }
 }
